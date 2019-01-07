@@ -3,54 +3,65 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+      td,th{
+        border: 1px solid black;
+      }
+      table{
+        border-collapse: collapse;
+      }
+      tfoot{
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <table style="border-collapse:collapse">
+    <table>
       <caption>Mon compte BNP</caption>
       <thead>
-        <th style="border:1px solid black">Date</th>
-        <th style="border:1px solid black">Libellé</th>
-        <th style="border:1px solid black">Crédit</th>
-        <th style="border:1px solid black">Débit</th>
+        <th>Date</th>
+        <th>Libellé</th>
+        <th>Crédit</th>
+        <th>Débit</th>
       </thead>
-
       <tbody>
         <tr>
-          <td style="border:1px solid black">01/05/2016</td>
-          <td style="border:1px solid black">Paye</td>
-          <td style="border:1px solid black">1500</td>
-          <td style="border:1px solid black">0</td>
+          <td>01/05/2016</td>
+          <td>Paye</td>
+          <td>1500</td>
+          <td>0</td>
         </tr>
         <tr>
-          <td style="border:1px solid black">01/05/2016</td>
-          <td style="border:1px solid black">Courses de la semaine</td>
-          <td style="border:1px solid black">0</td>
-          <td style="border:1px solid black">152.30</td>
+          <td>01/05/2016</td>
+          <td>Courses de la semaine</td>
+          <td>0</td>
+          <td>152.30</td>
         </tr>
         <tr>
-          <td style="border:1px solid black">04/05/2016</td>
-          <td style="border:1px solid black">Mc do</td>
-          <td style="border:1px solid black">0</td>
-          <td style="border:1px solid black">32.40</td>
+          <td>04/05/2016</td>
+          <td>Mc do</td>
+          <td>0</td>
+          <td>32.40</td>
         </tr>
         <tr>
-          <td style="border:1px solid black">05/05/2016</td>
-          <td style="border:1px solid black">Loyer</td>
-          <td style="border:1px solid black">0</td>
-          <td style="border:1px solid black">700</td>
+          <td>05/05/2016</td>
+          <td>Loyer</td>
+          <td>0</td>
+          <td>700</td>
         </tr>
         <tr>
-          <td style="border:1px solid black">05/05/2016</td>
-          <td style="border:1px solid black">Internet</td>
-          <td style="border:1px solid black">0</td>
-          <td style="border:1px solid black">39.90</td>
-        </tr>
-         <tr>
-          <td style="border:1px solid black" colspan="2" align="center">Solde</td>
-          <td style="border:1px solid black" colspan="2" align="center">575.40</td>
+          <td>05/05/2016</td>
+          <td>Internet</td>
+          <td>0</td>
+          <td>39.90</td>
         </tr>
       </tbody>
-
+      <tfoot
+        <tr>
+          <td colspan="2">Solde</td>
+          <td colspan="2">575.40</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
